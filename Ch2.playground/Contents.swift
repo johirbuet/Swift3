@@ -36,3 +36,35 @@ var playerHealth_inferred = 100
 
 // Multiple Explicit typed variable
 var playerDamage: Int, playerAttack: Int, playerGold: Double
+
+// Multiple type inferred
+
+var enemyDamage, enemyHealth,enemyAttach: Int
+
+var anInteger: Int = 2
+var aDouble: Double = 2.0
+
+var doubleFromInt: Double = Double(anInteger)
+var floatFromDouble: Float = Float(doubleFromInt)
+
+
+// Using String
+var iAmEmpty = ""
+var iAmAlsoEmpty = String()
+var againEmpty: String
+
+var firstName: String = "Johirul"
+var lastName = "Islam"
+var fullName = firstName + " " + lastName
+
+fullName += " learning swift3"
+
+var message = "Today is a beautiful day"
+var interpolatedMessage = "Look my message : \(message)"
+
+//Booleans and Bang operaotr
+var todayIsSunny = false
+todayIsSunny = !todayIsSunny
+
+
+
